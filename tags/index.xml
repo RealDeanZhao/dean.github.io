@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Deannnnnnnn</title>
-    <link>http://realdeanzhao.github.io/tags/</link>
+    <link>https://deanzhao.tech/tags/</link>
     <description>Recent content in Tags on Deannnnnnnn</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <lastBuildDate>Mon, 27 May 2019 12:41:05 +0800</lastBuildDate>
     
-	<atom:link href="http://realdeanzhao.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://deanzhao.tech/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>github pages</title>
-      <link>http://realdeanzhao.github.io/tags/github-pages/</link>
+      <link>https://deanzhao.tech/tags/github-pages/</link>
       <pubDate>Mon, 27 May 2019 12:41:05 +0800</pubDate>
       
-      <guid>http://realdeanzhao.github.io/tags/github-pages/</guid>
+      <guid>https://deanzhao.tech/tags/github-pages/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hugo</title>
-      <link>http://realdeanzhao.github.io/tags/hugo/</link>
+      <link>https://deanzhao.tech/tags/hugo/</link>
       <pubDate>Mon, 27 May 2019 12:41:05 +0800</pubDate>
       
-      <guid>http://realdeanzhao.github.io/tags/hugo/</guid>
+      <guid>https://deanzhao.tech/tags/hugo/</guid>
       <description></description>
     </item>
     
