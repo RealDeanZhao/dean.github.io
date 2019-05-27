@@ -74,6 +74,13 @@
                             2019年5月27日
                         </date>
                         
+                        <div class="post-meta">
+                            <span>|</span>
+                            
+                                <span class="meta-category"><a href="http://realdeanzhao.github.io/categories/%E6%8A%80%E6%9C%AF">技术</a></span>
+                            
+                        </div>
+                        
                         
                         
                         <div class="post-content">
@@ -133,12 +140,12 @@ git clone https://github.com/rujews/maupassant-hugo themes/maupassant
 
 <p>第二个仓库就是github pages的仓库了，要求仓库名必须以如下形式：<github_user_name>.github.io 。在此，我们以realdeanzhao.github.io为例。</p>
 
-<h3 id="2-给blog仓库添加远程git">2 给blog仓库添加远程git</h3>
+<h3 id="2-给站点目录添加git远程仓库-此仓库为刚才创建的blog仓库">2 给站点目录添加git远程仓库，此仓库为刚才创建的blog仓库</h3>
 
 <pre><code class="language-shell">git remote add origin &lt;your-blog-repo-url&gt;
 </code></pre>
 
-<h3 id="3-添加public为git子模块">3 添加public为git子模块</h3>
+<h3 id="3-添加站点目录下的public目录为git子仓库">3 添加站点目录下的public目录为git子仓库</h3>
 
 <pre><code class="language-shell"># 删除刚才hugo启动时发布的内容
 rm -rf public
@@ -198,7 +205,13 @@ cd ..
 
                         <div class="post-meta meta-tags">
                             
-                            没有标签
+                            <ul class="clearfix">
+                                
+                                <li><a href="http://realdeanzhao.github.io/tags/hugo">hugo</a></li>
+                                
+                                <li><a href="http://realdeanzhao.github.io/tags/github-pages">github pages</a></li>
+                                
+                            </ul>
                             
                         </div>
                     </article>
@@ -236,12 +249,20 @@ cd ..
         <h3 class="widget-title">分类</h3>
 <ul class="widget-list">
     
+    <li>
+        <a href="http://realdeanzhao.github.io/categories/%E6%8A%80%E6%9C%AF/">技术(1)</a>
+    </li>
+    
 </ul>
     </section>
 
     <section class="widget">
         <h3 class="widget-title">标签</h3>
 <div class="tagcloud">
+    
+    <a href="http://realdeanzhao.github.io/tags/github-pages/">github-pages</a>
+    
+    <a href="http://realdeanzhao.github.io/tags/hugo/">hugo</a>
     
 </div>
     </section>

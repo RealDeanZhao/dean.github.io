@@ -7,22 +7,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Tags | Deannnnnnnn</title>
-    <meta property="og:title" content="Tags - Deannnnnnnn">
+    <title>技术 | Deannnnnnnn</title>
+    <meta property="og:title" content="技术 - Deannnnnnnn">
     <meta property="og:type" content="article">
         
         
     <meta name="Keywords" content="">
-    <meta name="description" content="Tags">
+    <meta name="description" content="技术">
         
     <meta name="author" content="">
-    <meta property="og:url" content="http://realdeanzhao.github.io/tags/">
+    <meta property="og:url" content="http://realdeanzhao.github.io/categories/%E6%8A%80%E6%9C%AF/">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 
     <link rel="stylesheet" href="/css/normalize.css">
     
     <link rel="stylesheet" href="/css/style.css">
-    <link rel="alternate" type="application/rss+xml+xml" href="http://realdeanzhao.github.io/tags/index.xml" title="Deannnnnnnn" />
+    <link rel="alternate" type="application/rss+xml+xml" href="http://realdeanzhao.github.io/categories/%E6%8A%80%E6%9C%AF/index.xml" title="Deannnnnnnn" />
     <script type="text/javascript" src="//cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
 
     
@@ -61,33 +61,51 @@
         <div class="col-group">
 
             <div class="col-8" id="main">
-                <header>
+                <div class="res-cons">
                     
-                        <h1>共有2个标签</h1>
+                    <h3 class="archive-title">
+                        分类
+                        <span class="keyword">技术</span>
+                        中的文章
+                    </h3>
                     
-                </header>
-                <div class="post-archive">
+
                     
-                    <h2><a href="http://realdeanzhao.github.io/tags/github-pages">github-pages</a> (1)</h2>
-                    <ul class="listing">
-                        
-                        <li>
-                            <span class="date">2019/05/27</span>
-                            <a href="http://realdeanzhao.github.io/posts/hugo-with-github-pages/" title="使用Hugo和Github Pages搭建自己的博客">使用Hugo和Github Pages搭建自己的博客</a>
-                        </li>
-                        
-                    </ul>
+                        <article class="post">
+                            <header>
+                                <h1 class="post-title">
+                                    <a href="http://realdeanzhao.github.io/posts/hugo-with-github-pages/">使用Hugo和Github Pages搭建自己的博客</a>
+                                </h1>
+                            </header>
+                            <date class="post-meta meta-date">
+                                2019年5月27日
+                            </date>
+                            
+                            <div class="post-meta meta-category">
+                                |
+                                
+                                    <a href="http://realdeanzhao.github.io/categories/%E6%8A%80%E6%9C%AF">技术</a>
+                                
+                            </div>
+                            
+                            <div class="post-content">
+                                使用Hugo和Github Pages搭建自己的博客 撸起袖子直接干
+Hugo初始化 1 安装Hugo Mac, 使用homebrew安装：
+brew install hugo  2 初始化站点 # 替换&lt;your-site-name&gt; hugo new site &lt;your-site-name&gt;  3 添加主题 通过git clone自己想要的主题，这里我们使用maupassant主题
+# 进入刚才的站点目录 cd &lt;your-site-name&gt; # 克隆主题 git clone https://github.com/rujews/maupassant-hugo themes/maupassant  4 应用主题 更改config.toml文件，添加如下内容
+theme = &quot;maupassant&quot;  5 本地启动hugo server，并访问相应URL查看效果 hugo server  6 测试没问题后，停掉hugo server ctrl + c  关联Github Pages 1 创建两个github仓库 第一个仓库用于保存hugo自身的文件，比如主题等。仓库名随意，在此，我们将仓库取名为blog。
+第二个仓库就是github pages的仓库了，要求仓库名必须以如下形式：.github.io 。在此，我们以realdeanzhao.github.io为例。
+2 给站点目录添加git远程仓库，此仓库为刚才创建的blog仓库 git remote add origin &lt;your-blog-repo-url&gt;  3 添加站点目录下的public目录为git子仓库 # 删除刚才hugo启动时发布的内容 rm -rf public # 添加public目录为git子模块 git submodule add -b master https://github.……
+                                <p class="readmore"><a href="http://realdeanzhao.github.io/posts/hugo-with-github-pages/">阅读全文</a></p>
+                            </div>
+                        </article>
                     
-                    <h2><a href="http://realdeanzhao.github.io/tags/hugo">hugo</a> (1)</h2>
-                    <ul class="listing">
-                        
-                        <li>
-                            <span class="date">2019/05/27</span>
-                            <a href="http://realdeanzhao.github.io/posts/hugo-with-github-pages/" title="使用Hugo和Github Pages搭建自己的博客">使用Hugo和Github Pages搭建自己的博客</a>
-                        </li>
-                        
-                    </ul>
+
                     
+
+
+
+
 
                 </div>
             </div>

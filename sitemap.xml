@@ -3,6 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://realdeanzhao.github.io/categories/</loc>
+    <lastmod>2019-05-27T12:41:05+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://realdeanzhao.github.io/</loc>
     <lastmod>2019-05-27T12:41:05+08:00</lastmod>
     <priority>0</priority>
@@ -15,17 +21,31 @@
   </url>
   
   <url>
+    <loc>http://realdeanzhao.github.io/tags/</loc>
+    <lastmod>2019-05-27T12:41:05+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://realdeanzhao.github.io/tags/github-pages/</loc>
+    <lastmod>2019-05-27T12:41:05+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://realdeanzhao.github.io/tags/hugo/</loc>
+    <lastmod>2019-05-27T12:41:05+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://realdeanzhao.github.io/posts/hugo-with-github-pages/</loc>
     <lastmod>2019-05-27T12:41:05+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://realdeanzhao.github.io/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://realdeanzhao.github.io/tags/</loc>
+    <loc>http://realdeanzhao.github.io/categories/%E6%8A%80%E6%9C%AF/</loc>
+    <lastmod>2019-05-27T12:41:05+08:00</lastmod>
     <priority>0</priority>
   </url>
   
