@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Deannnnnnnn</title>
-    <link>https://deanzhao.tech/posts/</link>
-    <description>Recent content in Posts on Deannnnnnnn</description>
+    <title>vscode on Deannnnnnnn</title>
+    <link>https://deanzhao.tech/tags/vscode/</link>
+    <description>Recent content in vscode on Deannnnnnnn</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <lastBuildDate>Mon, 27 May 2019 16:27:02 +0800</lastBuildDate>
     
-	<atom:link href="https://deanzhao.tech/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://deanzhao.tech/tags/vscode/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -22,21 +22,6 @@
 mac: shift+options+u win： shift+alt+u  下载配置 快捷键：
 mac: shift+options+d win: shift+alt+d  忘记token 更换机器时，如果忘记了token，可以通过如下步骤恢复：
  在github上查看token信息，如下图：  选择Regenerate token，如下图：  重复上文中输入token的步骤即可  </description>
-    </item>
-    
-    <item>
-      <title>使用Hugo和Github Pages搭建自己的博客</title>
-      <link>https://deanzhao.tech/posts/hugo-with-github-pages/</link>
-      <pubDate>Mon, 27 May 2019 12:41:05 +0800</pubDate>
-      
-      <guid>https://deanzhao.tech/posts/hugo-with-github-pages/</guid>
-      <description>使用Hugo和Github Pages搭建自己的博客 撸起袖子直接干
-Hugo初始化 1 安装Hugo Mac, 使用homebrew安装：
-brew install hugo  2 初始化站点 # 替换&amp;lt;your-site-name&amp;gt; hugo new site &amp;lt;your-site-name&amp;gt;  3 添加主题 通过git clone自己想要的主题，这里我们使用maupassant主题
-# 进入刚才的站点目录 cd &amp;lt;your-site-name&amp;gt; # 克隆主题 git clone https://github.com/rujews/maupassant-hugo themes/maupassant  4 应用主题 更改config.toml文件，添加如下内容
-theme = &amp;quot;maupassant&amp;quot;  5 本地启动hugo server，并访问相应URL查看效果 hugo server  6 测试没问题后，停掉hugo server ctrl + c  关联Github Pages 1 创建两个github仓库 第一个仓库用于保存hugo自身的文件，比如主题等。仓库名随意，在此，我们将仓库取名为blog。
-第二个仓库就是github pages的仓库了，要求仓库名必须以如下形式：&amp;lt; github_user_name &amp;gt;.github.io。在此，我们以realdeanzhao.github.io为例。
-2 给站点目录添加git远程仓库，此仓库为刚才创建的blog仓库 git remote add origin &amp;lt;your-blog-repo-url&amp;gt;  3 添加站点目录下的public目录为git子仓库 # 删除刚才hugo启动时发布的内容 rm -rf public # 添加public目录为git子模块 git submodule add -b master https://github.</description>
     </item>
     
   </channel>

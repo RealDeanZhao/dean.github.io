@@ -3,25 +3,36 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://deanzhao.tech/categories/</loc>
-    <lastmod>2019-05-27T12:41:05+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://deanzhao.tech/</loc>
-    <lastmod>2019-05-27T12:41:05+08:00</lastmod>
+    <lastmod>2019-05-27T16:27:02+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://deanzhao.tech/posts/</loc>
-    <lastmod>2019-05-27T12:41:05+08:00</lastmod>
+    <lastmod>2019-05-27T16:27:02+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://deanzhao.tech/tags/</loc>
+    <lastmod>2019-05-27T16:27:02+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://deanzhao.tech/tags/vscode/</loc>
+    <lastmod>2019-05-27T16:27:02+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://deanzhao.tech/posts/use-settings-sync-to-sync-vscode-settings/</loc>
+    <lastmod>2019-05-27T16:27:02+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://deanzhao.tech/categories/</loc>
     <lastmod>2019-05-27T12:41:05+08:00</lastmod>
     <priority>0</priority>
   </url>

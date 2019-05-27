@@ -6,10 +6,23 @@
     <description>Recent content on Deannnnnnnn</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 27 May 2019 12:41:05 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 27 May 2019 16:27:02 +0800</lastBuildDate>
     
 	<atom:link href="https://deanzhao.tech/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>使用Settings Sync插件同步VS Code配置</title>
+      <link>https://deanzhao.tech/posts/use-settings-sync-to-sync-vscode-settings/</link>
+      <pubDate>Mon, 27 May 2019 16:27:02 +0800</pubDate>
+      
+      <guid>https://deanzhao.tech/posts/use-settings-sync-to-sync-vscode-settings/</guid>
+      <description> 使用Settings Sync插件同步VS Code配置 vscode官方没有推出配置同步功能，这给更换机器带来了不小的麻烦。好在，vscode有一款插件Settings Sync能够帮我们解决这个问题。它通过github gist来保存vscode的配置信息，使用起来是十分的简单、方便。
+安装准备  Github账号 Settings Sync插件  配置Github  打开Github主页，进入Settings -&amp;gt; Developer settings -&amp;gt; Personal access tokens页面，点击Generate new token，如下图：  输入任意帮助记忆的note，并（只）勾选gist权限，如下图：  创建好token之后，注意记录下刚才生成的token，如下图：   配置Settings Sync  在应用商店里搜索并安装Settings Sync插件，如下图：  安装完成之后，敲击&amp;rdquo;shift+options+u&amp;rdquo;开始同步配置（windows的快捷键为：shift+alt+u），如果是第一次运行此命令，请在弹窗中输入之前生成的token  配置同步完毕，如下图：   基本使用 上传配置 快捷键：
+mac: shift+options+u win： shift+alt+u  下载配置 快捷键：
+mac: shift+options+d win: shift+alt+d  忘记token 更换机器时，如果忘记了token，可以通过如下步骤恢复：
+ 在github上查看token信息，如下图：  选择Regenerate token，如下图：  重复上文中输入token的步骤即可  </description>
+    </item>
     
     <item>
       <title>使用Hugo和Github Pages搭建自己的博客</title>
