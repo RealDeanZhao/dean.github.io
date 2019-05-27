@@ -1,0 +1,6 @@
+baseURL = "http://realdeanzhao.github.io"
+languageCode = "zh-CN"
+title = "Dean的博客"
+theme = "maupassant"
+
+publishDir = "docs"
